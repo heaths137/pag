@@ -1,0 +1,514 @@
+@font-face {
+    font-family: "delius";
+    src: url(../letras/Delius_Unicase/DeliusUnicase-Regular.ttf);
+}
+
+@font-face {
+    font-family: "chelsea";
+    src: url(../letras/ChelseaMarket-Regular.ttf);
+}
+
+@font-face {
+    font-family: "red-rose";
+    src: url(../letras/Red_Rose/RedRose-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "playwrite";
+    src: url(../letras/Playwrite_HR_Lijeva/PlaywriteHRLijeva-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "rouge";
+    src: url(../letras/RougeScript-Regular.ttf);
+}
+
+@font-face{
+    font-family: "lavishly";
+    src: url(../letras/LavishlyYours-Regular.ttf);
+}
+
+@font-face {
+    font-family: "josefin";
+    src: url(../letras/Josefin_Slab/JosefinSlab-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "pacifico";
+    src: url(../letras/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poiret";
+    src: url(../letras/Poiret_One/PoiretOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "raleway";
+    src: url(../letras/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "yellowtail";
+    src: url(../letras/Yellowtail/Yellowtail-Regular.ttf);
+}
+
+
+/* BARRA REDES */
+#barra-redes {
+    font-size: 1.3rem;
+}
+
+#barra-redes a {
+    color: white;
+    transition: color 0.3s ease;
+    margin-right: 15px;
+}
+
+#barra-redes:hover {
+    color: #FFD700;
+}
+
+/* BARRA NAVBAR */
+
+.logo {
+    height: 70px;
+    width: 120px;
+    border-radius: 50%;
+    border-color: #c4ae6c;
+}
+
+
+#barra-nav {
+    background-color: #55554f;
+    color: #0000;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#barra-nav:hover {
+    color: #c5ac61;
+}
+
+
+.navbar .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.nav-item {
+    font-family: "poiret";
+    font-size: 1vw;
+    padding: 10px;
+    color: white;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.navbar-toggler-icon {
+    display: block;
+    width: 30px; 
+    height: 3px;
+    background-color: white;
+    margin: 6px auto;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: '';
+    border:none;
+    display: block;
+    width: 30px; 
+    height: 3px;
+    background-color: white;
+    margin: 6px auto;
+}
+
+
+/* PORTADA */
+#titulo-principal {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    font-family: "lavishly";
+    font-size: 8vw;
+    margin-bottom: 20px;
+}
+
+#titulo-secundario {
+    color: transparent;
+    background: linear-gradient(90deg, #0ba34f, #286941, #4b9c7a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 0.5px white;
+    font-family: "chelsea";
+    font-size: 5vw;
+    margin-bottom: 5%;
+}
+
+.section-title {
+    font-size: 7vw;
+    margin: 40px 0 20px;
+    color: #66542f;
+    text-align: center;
+    font-weight: bold;
+    font-family: "rouge";
+    border-bottom: 2px solid #9a833e;
+    padding-bottom: 5px;
+    margin-top: 5%;
+}
+
+#portadaCarousel p,
+#portadaCarousel h2 {
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.carousel-caption h2 {
+    font-family: "delius";
+    font-size: 2vw;
+}
+
+.carousel-caption p {
+    font-family: "josefin";
+    font-size: 1.9vw;
+}
+
+.portada {
+    position: relative;
+    height: 75vh;
+    color: white;
+    text-align: center;
+}
+
+.portada .carousel-caption {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portada .carousel-item {
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn{
+    font-size: 1.3vw;
+}
+
+
+/* NUESTRA EMPRESA */
+#nosotros p {
+    font-family: "raleway";
+    font-size: 1.3rem;
+}
+
+/* VIDEO */
+#video {
+    background-image: url("../imagenes/fondo-video.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+    z-index: 1;
+}
+
+#video::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(47, 152, 184, 0.5);
+    z-index: 0;
+    pointer-events: none;
+}
+
+#titulo-video,
+#video video {
+    position: relative;
+    z-index: 2;
+}
+
+video {
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    max-width: 800px;
+}
+
+#titulo-video {
+    padding-top: 4%;
+    font-family: "poiret";
+    text-transform: uppercase;
+    margin-bottom: 3%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+/* LOCALES */
+
+#fondo-locales {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    background-color: #7d603b;
+    padding: 5% 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(125, 96, 59, 0.7);
+    color: white;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.card-text {
+    flex-grow: 1;
+    text-align: center;
+    font-family: "red-rose";
+    font-size: 1.1rem;
+}
+
+.card .btn {
+    align-self: center;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #7fb65d;
+    padding: 8px 20px;
+    margin-top: 15px;
+}
+
+.card .btn:hover {
+    background-color: #7fb65d;
+    color: white;
+}
+
+#titulo-locales {
+    font-size: 5rem;
+    margin: 40px 0 20px;
+    color: #66542f;
+    text-align: center;
+    font-weight: bold;
+    font-family: "rouge";
+}
+
+/* CARTA-MENÚ */
+
+.table-custom td {
+    color: #5e4527;
+    border-color: #a2a04a;
+    font-family: "playwrite";
+}
+
+.table-custom th {
+    background-color: #d4d49c;
+    color: #8d863c;
+    font-family: "josefin";
+    font-size: 1.5rem;
+}
+
+/* CONTACTO */
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #a2a04a;
+    border-radius: 0;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #65b54c;
+}
+
+.btn-custom {
+    background-color: #f5f5dc;
+    color: #5e4527;
+    border: 2px solid #a2a04a;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #a2db7a;
+    color: #fff;
+}
+
+/* Footer */
+
+footer {
+    background-color: #fff;
+    border-top: 5px solid #a8c945;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+}
+
+.final {
+    font-size: 10px;
+}
+
+/* Diseño Responsive */
+@media (max-width: 1199px) {
+    .section-title {
+        font-size: 4rem;
+    }
+    #titulo-principal {
+        font-size: 4rem;
+    }
+    .card {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #titulo-locales {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .section-title {
+        font-size: 3.5rem;
+    }
+    #titulo-principal {
+        font-size: 3rem;
+    }
+    #portadaCarousel {
+        height: 50vh;
+    }
+    .carousel-caption {
+        top: 30%;
+    }
+    .carousel-item {
+        height: 50vh;
+    }
+    .form-control {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        font-size: 1rem;
+    }
+    #fondo-locales {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .card {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .section-title {
+        font-size: 3rem;
+    }
+    #titulo-principal {
+        font-size: 2.5rem;
+    }
+    .form-control {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #barra-redes {
+        font-size: 1.1rem;
+    }
+
+    .carousel-caption {
+        font-size: 0.9rem;
+    }
+    .section-title {
+        font-size: 2.5rem;
+    }
+    .card-body {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar .navbar-nav {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar-brand {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .logo {
+        height: 50px;
+        width: 100px;
+        margin: 0 auto;
+        display: block;
+
+    } 
+    
+    .navbar-toggler {
+        display: block;
+    }
+    
+    .navbar-collapse {
+        display: none;
+    }
+    
+    .navbar-collapse.show {
+        display: block;
+    }
+}

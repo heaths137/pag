@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/index01.css">
+</head>
+
+<body>
+    
+<header>
+    <!-- BARRA REDES -->
+<div class="social-bar bg-dark text-white py-2" id="barra-redes">
+    <div class="container d-flex justify-content-center">
+      <a href="https://www.facebook.com/" target="_blank" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/" target="_blank" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/" target="_blank" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/"  target="_blank"   class="text-white"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+
+    <!-- BARRA NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="barra-nav">
+        <div class="container">
+          <img class="logo" src="imagenes/logo.jfif" alt="Logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="navbar-toggler-icon"></div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ms-4"><a class="nav-link text-success" href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+              <li class="nav-item ms-4"><a class="nav-link" href="#carta"><i class="fa-regular fa-clipboard"></i> Carta</a></li>
+              <li class="nav-item ms-4"><a class="nav-link" href="#nosotros"><i class="fa-solid fa-user"></i> Nosotros</a></li>
+              <li class="nav-item ms-4"><a class="nav-link" href="#services"><i class="fa-regular fa-star"></i> Servicios</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      
+
+</header>
+
+<main>
+
+  <!-- CAROUSEL PORTADA -->
+<section id="home" class="portada">
+    <div id="portadaCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('imagenes/carousel-1.jpg');">
+          <div class="carousel-caption">
+            <h1 class="display-4" id="titulo-principal">Bon Apetit</h1>
+            <h2>Disfruta del mejor sabor de la cocina peruana.</h2>
+            <p>Sumérgete en la rica gastronomía peruana con nuestros platos llenos de sabor, frescura y tradición.</p>
+            <!-- <a href="#" class="btn btn-success">Ingresar a mi Web</a> -->
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('imagenes/carousel-2.jpg');">
+          <div class="carousel-caption">
+            <h1 class="display-4" id="titulo-secundario">Sabores Únicos</h1>
+            <p>Disfruta de la auténtica cocina peruana, una explosión de sabores y colores que reflejan nuestra rica herencia culinaria.</p>
+            <a href="menu/platos-principales.html" class="btn btn-success"> Ver Platos Principales</a>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('imagenes/carousel-3.jpg');">
+          <div class="carousel-caption">
+            <h1 class="display-4"  id="titulo-secundario">Dulzura Peruana</h1>
+            <p>Disfruta de la tradición y el sabor auténtico de nuestros postres peruanos, una mezcla de historia y pasión en cada bocado.</p>
+            <a href="menu/postres.html" class="btn btn-success"> Ver Postres</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#portadaCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#portadaCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- NUESTRA EMPRESA -->
+  <div class="container my-5" id="nosotros">
+    <h2 class="section-title text-center">Sobre Nosotros</h2>
+    <p class="text-center">Descubre el auténtico sabor del Perú en cada bocado. En Bon Appétit, nos apasiona compartir las tradiciones culinarias de nuestro país, desde los ingredientes más frescos hasta las recetas que han pasado de generación en generación. Sumérgete en una experiencia gastronómica única, donde los aromas, colores y sabores peruanos se mezclan en una sinfonía que deleitará tus sentidos. ¡Te invitamos a explorar nuestra carta y disfrutar de la riqueza de nuestra tierra, en cada plato!</p>
+    <div class="row text-center">
+      <div class="col-md-3"><img src="imagenes/nosotros-1.avif" alt="Nosotros 1" class="img-fluid"></div>
+      <div class="col-md-3"><img src="imagenes/nosotros-2.avif" alt="Nosotros 2" class="img-fluid"></div>
+      <div class="col-md-3"><img src="imagenes/nosotros-3.avif" alt="Nosotros 3" class="img-fluid"></div>
+      <div class="col-md-3"><img src="imagenes/nosotros-4.avif" alt="Nosotros 4" class="img-fluid"></div>
+    </div>
+  </div>
+
+  <!-- VIDEO -->
+  <div class="text-center" id="video">
+    <h2 class="text-center" id="titulo-video" >Video Promocional de mi Empresa</h2>
+    <video controls class="embed-responsive-item w-100">
+      <source src="videos/video-index.mp4" type="video/mp4">
+      Tu navegador no soporta videos.
+    </video>
+  </div>
+
+  <!-- LOCALES -->
+  <div id="nuestros-locales">
+    <h2 class="text-center" id="titulo-locales">Nuestros Locales</h2>
+    <div id="fondo-locales">
+        <div class="card">
+            <img src="imagenes/local-1.jfif" class="card-img-top" alt="Local 1">
+            <div class="card-body">
+                <p class="card-text">Ubicada en el corazón de la ciudad, nuestra sucursal del centro es el lugar perfecto para disfrutar de una deliciosa comida peruana en un ambiente vibrante y acogedor.</p>
+                <a href="#" class="btn btn-warning">Ver más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="imagenes/local-2.jfif" class="card-img-top" alt="Local 2">
+            <div class="card-body">
+                <p class="card-text">Nuestra sucursal de la zona norte es un oasis gastronómico en el norte de la ciudad. Con un ambiente relajado y familiar, es el lugar ideal para disfrutar de una comida peruana con amigos y familiares.</p>
+                <a href="#" class="btn btn-warning">Ver más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="imagenes/local-3.jfif" class="card-img-top" alt="Local 3">
+            <div class="card-body">
+                <p class="card-text">Ubicada en el corazón de la zona turística, nuestra sucursal es un destino gastronómico imperdible para los visitantes de la ciudad.</p>
+                <a href="#" class="btn btn-warning">Ver más</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- CARTA-MENÚ -->
+
+  <div class="container my-5" id="carta">
+    <h2 class="section-title text-center">Nuestra Carta</h2>
+    <table class="table table-bordered table-custom text-center">
+      <thead>
+        <tr>
+          <th colspan="2">Platos Principales</th>
+          <th colspan="2">Postres</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ceviche</td>
+          <td>S/ 35</td>
+          <td>Picarones</td>
+          <td>S/ 9</td>
+        </tr>
+        <tr>
+          <td>Lomo Saltado</td>
+          <td>S/ 30</td>
+          <td>Suspiro a la Limeña</td>
+          <td>S/ 11</td>
+        </tr>
+        <tr>
+          <td>Causa</td>
+          <td>S/ 40</td>
+          <td>Arroz con Leche</td>
+          <td>S/ 7</td>
+        </tr>
+        <tr>
+            <td>Pollo a la Brasa</td>
+            <td>S/ 80</td>
+            <td>Mazamorra Morada</td>
+            <td>S/ 7</td>
+          </tr>
+          <tr>
+            <td>Ají de Gallina</td>
+            <td>S/ 27</td>
+            <td>Crema Volteada</td>
+            <td>S/ 9</td>
+          </tr>
+          <tr>
+            <td>Anticuchos</td>
+            <td>S/ 25</td>
+            <td>Tres Leches</td>
+            <td>S/ 8</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CONTACTO --> 
+  <div class="container my-5" id="contacto">
+    <h2 class="section-title text-center">Contáctanos</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="imagenes/contacto.avif" alt="Foto" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Ingresar Nombre" required>
+          </div>
+          <div class="mb-3">
+            <input type="tel" class="form-control" placeholder="Ingresar Móvil" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Ingresar Correo Electrónico" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" placeholder="Ingresar Comentarios" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-custom w-100">Ver más</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+    <div>
+        <h2 class="final">© 2024 Bon Appetit. Todos los derechos reservados. | Política de Privacidad | Términos y Condiciones</h2>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
